@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,48 @@
     <link rel="stylesheet" href="../css/index.css">
     <title>Home</title>
 </head>
+
 <body>
     <div class="header">
         <div class="container">
             <h1>Corinthians</h1>
-                <nav>
-                    <ul class="nav_header">
-                        <a href=""><li id="letras_laranja">Home</li></a>                      
-                        <a href=""><li>Sobre</li></a>
-                        <a href="cadastro.html"><li>Cadastro</li></a>
-                        <a href="login.html"><li>Login</li></a>
-                    </ul>
-                </nav>
-        </div>    
+            <nav>
+                <ul class="nav_header">
+                    <a href="">
+                        <li id="letras_laranja">Home</li>
+                    </a>
+                    <a href="">
+                        <li>Sobre</li>
+                    </a>
+                    <a href="cadastro.html">
+                        <li>Cadastro</li>
+                    </a>
+                    <a href="login.html">
+                        <li>Login</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
     </div>
     <!-- FIM DO HEADER -->
 
     <div id="div_apresentacao">
-        <h2>Venha ser mais um louco torcedor</h2>           
+        <div id="div_img_centro">
+            <div id="div_quadrado_login">
+                <br><br><br><br><br><br><br>
+                <div class="container_login">
+                    <h1>Login</h1>
+
+                    E-mail:
+                    <input type="text" placeholder="Email" id="inp_email">
+                    <br><br>
+                    Senha: 
+                    <input type="text" name="" id="inp_senha" placeholder="Senha">
+                    <br>
+                    <button onclick="entrar_login()">Entrar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="div_patrocinadores">
@@ -34,4 +59,5 @@
     <!-- INICIO DO FOOTER -->
     <div class="footer"></div>
 </body>
+
 </html>
