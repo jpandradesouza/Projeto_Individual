@@ -1,0 +1,44 @@
+#container_cadastro {
+    width: 100%;
+    height: 750px;
+}
+
+#quadrado_cadastro {
+    max-width: 45%;
+    height: 75%;
+    text-align: center;
+    background-color: black;
+    margin-top: 60px;
+    padding-top: 20px;
+    margin-left: 430px;
+    margin-right: 250px;
+    color: white;
+    border-radius: 15px;
+    border : 2px solid transparent;
+    border-color: white;
+}
+
+#quadrado_campos{
+    width: 90%;
+    height: 40%;
+}
+
+#quadrado_campos input {
+    width: 90%;
+    height: 30px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid;
+    color: white;
+}
+
+#quadrado_campos button {
+    /* float: right; */
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* background-color: ; */
+}

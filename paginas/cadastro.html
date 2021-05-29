@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="shortcut icon" href="../img/corinthians-logo-02.png" type="image/x-icon">
-    <title>Login</title>
+    <title>Cadastro Fiel Torcedor</title>
 </head>
 <header>
     <div class="header">
@@ -16,8 +17,8 @@
             <h1> <span></span>Corinthians</h1>
             <nav>
                 <ul class="nav_header">
-                    <li> <a href="cadastro.html"></a> Cadastro</li>
-                    <li>Login</li>
+                    <li>Cadastro</li>
+                    <li> <a href="login.html"></a> Login</li>
                 </ul>
             </nav>
         </div>
@@ -27,35 +28,32 @@
 
 <div id="div_apresentacao">
     <div id="div_img_centro">
-        <div id="div_quadrado_login">
-            <br><br><br><br><br><br><br>
-            <div class="container_login">
+        <div id="container_cadastro"> <br><br>
+            <div id="quadrado_cadastro">
                 <div class="img_topo">
                     <img class="img_login" src="../img/corinthians-logo-02.png" alt="">
                 </div>
-                <h1>Login</h1>
-
-                E-mail: <br>
-                <input class="input" type="text" placeholder="Email" id="inp_email">
-                <br><br>
-                Senha: <br>
-                <input class="input" type="text" name="" id="inp_senha" placeholder="Senha">
-                <br> <br> <br>
-                <input class="check" type="checkbox"><span>Manter Login</span>
-                <br>
-                <button onclick="entrar_login()" type="submit">Entrar</button>
-
+                <div id="quadrado_campos">
+                    <input type="text" placeholder="Cadastre um E-mail"> <br><br><br>
+                    <input type="text" name="" id="" placeholder="Informe seu CPF"> <br><br><br>
+                    <input type="text" name="" id="" placeholder="Digite seu endereço de cadastro"> <br><br><br>
+                    <input type="text" placeholder="Definir senha"> <br><br><br>
+                    <input type="text" placeholder="Confirmar senha"> <br><br><br>
+                    <br>
+                    <button>Cadastrar</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
+
 <!-- Footer -->
 <footer class="footer">
     <div class="caixa_footer">
         <div class="copyright">
-        <small>&copy; Copyright 2021, Corinthians</small>
+            <small>&copy; Copyright 2021, Corinthians</small>
         </div>
         <nav>
             <ul class="bot_list">
